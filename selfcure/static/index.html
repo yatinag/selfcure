@@ -1,6 +1,71 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
 
-    {% block content %}
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/icon">
+    <link rel="icon" href="favicon.ico" type="image/icon">
+    <title>SelfCure</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/awesome.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">SelfCure</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="start.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+   
     <!-- Header -->
 	<header>
         <div class="container">
@@ -42,16 +107,16 @@
                     <h2>What we cover</h2>
                     <hr class="star-primary">
                 </div>
-            <h3 id="add">We remove the following addictions*
+            <h3 id="add">We remove the following addictions
 			</h3>
 			<br>
 			<div id="addiction">
 			    <a id="box" href="start.html"><p>Gaming</p></a> 
-			    <a id="boxo" href="start.html"><p>Alcohol</p></a> 
+			    <a id="boxo" href="start.html"><p>Special*</p></a> 
                 <a id="boxor" href="start.html"><p>Food</p></a>
 			</div>
 			<br><br><br><br>
-			<h6><center>*Cannot find your addiction? Do not worry... We are constantly adding new Addictions to remove to our website.</center></h6><br>
+			<h6><center>*Cannot find your addiction? Do not worry, head over to our special section, where we help you overcome addictions in general. This also includes various, fun tips and tricks about uncommon addictions such as social media, TV shows or cartoons.</center></h6><br>
 			</div>
 		</div>
 	</section>
@@ -91,7 +156,7 @@
 								<p>The Nice Guy</p>
                             </div>
 						</div>
-                        <img src="img/Yatin.gif" class="img-responsive" alt="">
+                        <img src="img/Yatin.png" class="img-responsive" alt="">
                     </a>
                 </div>
 				<div class="col-sm-4 portfolio-item">
@@ -99,10 +164,10 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
-								<p>You</p>
+								<p>Virtual Trainers</p>
                             </div>
                         </div>
-                        <img src="img/Finger-Pointing.jpg" class="img-responsive" alt="">
+                        <img src="Characters/All Chara.png" class="img-responsive" alt="">
                     </a>
                 </div>
 				<div class="col-sm-4 portfolio-item">
@@ -113,7 +178,7 @@
 								<p>The Cool Guy</p>
                             </div>
                         </div>
-                        <img src="img/Bhanu.gif" class="img-responsive" alt="">
+                        <img src="img/Bhanu.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 
@@ -190,7 +255,7 @@
                         <div class="modal-body">
                             <h2>Yatin Agarwal</h2>
                             <hr class="star-primary">
-                            <img src="img/Yatin.gif" class="img-responsive img-centered" alt="">
+                            <img src="img/Yatin.png" class="img-responsive img-centered" alt="">
                             <p>Yatin Agarwal is the Owner and Founder of this miraculous website. He is 14 years old and designed this website for people suffering due to their various addictions. He saw this problem in the society, and thus resulted in creating this website. </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -221,10 +286,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>You, are a part of our staff</h2>
+                            <h2>Virtual Trainers</h2>
                             <hr class="star-primary">
-                            <img src="img/Finger-Pointing.jpg" class="img-responsive img-centered" alt="">
-                            <p>You are our user and we give you the rightful title of being a member of our staff. You are more important than anyone else as you will be needed to be truthful and have a strong will.</p>
+                            <img src="Characters/All Characters.png" class="img-responsive img-centered">
+                            <p>Our virtual pannel of experts are the perfect path guides for their respective addictions. Each of them were once addicted but after rigorous mental training, they conquered their cravings and now serve as a medium of inspiration for those who are suffering a similar fate.  </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -246,7 +311,7 @@
                         <div class="modal-body">
                             <h2>Bhanu Agarwal</h2>
                             <hr class="star-primary">
-                            <img src="img/Bhanu.gif" class="img-responsive img-centered" alt="">
+                            <img src="img/Bhanu.png" class="img-responsive img-centered" alt="">
                             <p>Bhanu Agarwal is the co-founder and financial advisor of this website. He is 19 years old and studies at UIUC. He and the founder are brothers.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -265,7 +330,6 @@
             </div>
         </div>
     </div>
-    {% endblock %}
     <!-- jQuery Version 1.11.0 -->
     <script src="jquery-1.11.0.js"></script>
 

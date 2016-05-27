@@ -1,0 +1,234 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'particle-cli' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'particle-cli', null ]
+7 verbose cache add spec particle-cli
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'particle-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'particle-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed particle-cli@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for particle-cli
+11 info addNameTag [ 'particle-cli', 'latest' ]
+12 silly mapToRegistry name particle-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'particle-cli',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'particle-cli',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/particle-cli
+17 verbose addNameTag registry:https://registry.npmjs.org/particle-cli not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/particle-cli
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 3:40:33 PM
+21 verbose request id d0e0d34a27a5cc12
+22 http request GET https://registry.npmjs.org/particle-cli
+23 http 200 https://registry.npmjs.org/particle-cli
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"6CN1Z449ONFK24Z4IRKPOBRF6"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '19985',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Sat, 21 May 2016 10:10:34 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '120',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1463825434.383030,VS0,VE0',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"6CN1Z449ONFK24Z4IRKPOBRF6"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '19985',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Sat, 21 May 2016 10:10:34 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '120',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sin6921-SIN',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1463825434.383030,VS0,VE0',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving particle-cli to /Users/Yeti/.npm/registry.npmjs.org/particle-cli/.cache.json
+27 verbose correctMkdir /Users/Yeti/.npm correctMkdir not in flight; initializing
+28 verbose makeDirectory /Users/Yeti/.npm creation not in flight; initializing
+29 silly makeDirectory /Users/Yeti/.npm uid: 501 gid: 20
+30 silly addNameTag next cb for particle-cli with tag latest
+31 silly addNamed particle-cli@1.12.0
+32 verbose addNamed "1.12.0" is a plain semver version for particle-cli
+33 silly mapToRegistry name particle-cli
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'particle-cli',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   name: 'particle-cli',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/particle-cli
+38 verbose addRemoteTarball https://registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz not in flight; adding
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz',
+39 verbose addRemoteTarball   '57533cbf749f9d6e3c998a3742c8719385bc012e' ]
+40 info retry fetch attempt 1 at 3:40:34 PM
+41 info attempt registry request try #1 at 3:40:34 PM
+42 http fetch GET https://registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz
+43 http fetch 200 https://registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz
+44 silly fetchAndShaCheck shasum 57533cbf749f9d6e3c998a3742c8719385bc012e
+45 verbose addTmpTarball /var/folders/ty/yjx407w129g3hzjbtp14b4th0000gn/T/npm-3356-5f4825b6/registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz not in flight; adding
+46 verbose addTmpTarball already have metadata; skipping unpack for particle-cli@1.12.0
+47 verbose correctMkdir /Users/Yeti/.npm correctMkdir not in flight; initializing
+48 silly cache afterAdd particle-cli@1.12.0
+49 verbose afterAdd /Users/Yeti/.npm/particle-cli/1.12.0/package/package.json not in flight; writing
+50 verbose correctMkdir /Users/Yeti/.npm correctMkdir not in flight; initializing
+51 verbose afterAdd /Users/Yeti/.npm/particle-cli/1.12.0/package/package.json written
+52 silly install resolved [ { name: 'particle-cli',
+52 silly install resolved     description: 'Simple Node commandline application for working with your Particle devices and using the Particle Cloud',
+52 silly install resolved     version: '1.12.0',
+52 silly install resolved     author: { name: 'David Middlecamp' },
+52 silly install resolved     repository:
+52 silly install resolved      { type: 'git',
+52 silly install resolved        url: 'git+https://github.com/spark/particle-cli.git' },
+52 silly install resolved     license: 'LGPL-3.0',
+52 silly install resolved     bin: { particle: './bin/particle.js' },
+52 silly install resolved     main: './app.js',
+52 silly install resolved     engines: { node: '>=0.10.40' },
+52 silly install resolved     dependencies:
+52 silly install resolved      { 'binary-version-reader': '^0.3.0',
+52 silly install resolved        chalk: '^1.0.0',
+52 silly install resolved        'cli-spinner': '^0.2.1',
+52 silly install resolved        'cli-table': '^0.3.1',
+52 silly install resolved        glob: '^4.2.1',
+52 silly install resolved        'hogan.js': '^2.0.0',
+52 silly install resolved        inquirer: '^0.11.2',
+52 silly install resolved        'latest-version': '^2.0.0',
+52 silly install resolved        lodash: '^3.10.1',
+52 silly install resolved        moment: '^2.9.0',
+52 silly install resolved        'node-wifiscanner2': '^1.1.1',
+52 silly install resolved        request: '^2.46.0',
+52 silly install resolved        semver: '^5.1.0',
+52 silly install resolved        serialport: '^2.0.1',
+52 silly install resolved        'softap-setup': '^1.1.4',
+52 silly install resolved        temp: '^0.8.3',
+52 silly install resolved        when: '^3.7.2',
+52 silly install resolved        xtend: '^4.0.0' },
+52 silly install resolved     scripts:
+52 silly install resolved      { test: 'mocha test/',
+52 silly install resolved        lint: 'eslint commands/**/*.js lib/**/*.js test/**/*.js *.js',
+52 silly install resolved        coverage: 'istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec test/',
+52 silly install resolved        coveralls: 'istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec test/ && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage',
+52 silly install resolved        doctoc: 'doctoc --title \'## Table of Contents\' README.md' },
+52 silly install resolved     contributors:
+52 silly install resolved      [ [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object],
+52 silly install resolved        [Object] ],
+52 silly install resolved     preferGlobal: true,
+52 silly install resolved     devDependencies:
+52 silly install resolved      { coveralls: '^2.11.4',
+52 silly install resolved        doctoc: '^0.15.0',
+52 silly install resolved        eslint: '^1.9.0',
+52 silly install resolved        istanbul: '^0.3.22',
+52 silly install resolved        mocha: '^2.2.5',
+52 silly install resolved        proxyquire: '^1.6.0',
+52 silly install resolved        should: '^7.0.2',
+52 silly install resolved        sinon: '^1.15.4' },
+52 silly install resolved     gitHead: '34364d9220c4275fd42c81d7b66a09b35af2d263',
+52 silly install resolved     bugs: { url: 'https://github.com/spark/particle-cli/issues' },
+52 silly install resolved     homepage: 'https://github.com/spark/particle-cli#readme',
+52 silly install resolved     _id: 'particle-cli@1.12.0',
+52 silly install resolved     _shasum: '57533cbf749f9d6e3c998a3742c8719385bc012e',
+52 silly install resolved     _from: 'particle-cli@latest',
+52 silly install resolved     _npmVersion: '2.14.6',
+52 silly install resolved     _nodeVersion: '0.10.38',
+52 silly install resolved     _npmUser: { name: 'brycekahle', email: 'bkahle@gmail.com' },
+52 silly install resolved     dist:
+52 silly install resolved      { shasum: '57533cbf749f9d6e3c998a3742c8719385bc012e',
+52 silly install resolved        tarball: 'https://registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz' },
+52 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+52 silly install resolved     _npmOperationalInternal:
+52 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+52 silly install resolved        tmp: 'tmp/particle-cli-1.12.0.tgz_1461259780524_0.15755610703490674' },
+52 silly install resolved     directories: {},
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/particle-cli/-/particle-cli-1.12.0.tgz' } ]
+53 info install particle-cli@1.12.0 into /usr/local/lib
+54 info installOne particle-cli@1.12.0
+55 verbose installOne of particle-cli to /usr/local/lib not in flight; installing
+56 verbose correctMkdir /Users/Yeti/.npm/_locks correctMkdir not in flight; initializing
+57 verbose makeDirectory /Users/Yeti/.npm/_locks creation not in flight; initializing
+58 silly makeDirectory /Users/Yeti/.npm/_locks uid: 501 gid: 20
+59 verbose lock using /Users/Yeti/.npm/_locks/particle-cli-da5fb63f9622b59a.lock for /usr/local/lib/node_modules/particle-cli
+60 silly install write writing particle-cli 1.12.0 to /usr/local/lib/node_modules/particle-cli
+61 verbose unbuild lib/node_modules/particle-cli
+62 silly gentlyRm /usr/local/lib/node_modules/particle-cli is being purged from base /usr/local
+63 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/particle-cli
+64 verbose tar unpack /Users/Yeti/.npm/particle-cli/1.12.0/package.tgz
+65 verbose tar unpacking to /usr/local/lib/node_modules/particle-cli
+66 silly gentlyRm /usr/local/lib/node_modules/particle-cli is being purged
+67 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/particle-cli
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 error tar.unpack untar error /Users/Yeti/.npm/particle-cli/1.12.0/package.tgz
+70 verbose unlock done using /Users/Yeti/.npm/_locks/particle-cli-da5fb63f9622b59a.lock for /usr/local/lib/node_modules/particle-cli
+71 verbose fstream_path /usr/local/lib/node_modules/particle-cli
+72 verbose fstream_type Directory
+73 verbose fstream_class DirWriter
+74 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/particle-cli'
+74 verbose stack     at Error (native)
+75 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+75 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+75 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+76 verbose cwd /Users/Yeti/Desktop/appengine-flask-skeleton-master
+77 error Darwin 15.4.0
+78 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "particle-cli"
+79 error node v4.4.4
+80 error npm  v2.15.1
+81 error path /usr/local/lib/node_modules/particle-cli
+82 error code EACCES
+83 error errno -13
+84 error syscall mkdir
+85 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/particle-cli'
+85 error     at Error (native)
+85 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/particle-cli']
+85 error   errno: -13,
+85 error   code: 'EACCES',
+85 error   syscall: 'mkdir',
+85 error   path: '/usr/local/lib/node_modules/particle-cli',
+85 error   fstream_type: 'Directory',
+85 error   fstream_path: '/usr/local/lib/node_modules/particle-cli',
+85 error   fstream_class: 'DirWriter',
+85 error   fstream_stack:
+85 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+85 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+85 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+86 error Please try running this command again as root/Administrator.
+87 verbose exit [ -13, true ]
+88 verbose unbuild lib/node_modules/particle-cli
+89 silly gentlyRm /usr/local/lib/node_modules/particle-cli is being purged from base /usr/local
+90 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/particle-cli
