@@ -24,11 +24,9 @@ app = Flask(__name__, template_folder = "static")
 # the App Engine WSGI application server.
 #app.static_url_path('public')
 
-app.secret_key = '\xb9\x1e\xdd1L\xf6\xbbo\xeeFs\x88\xe94t\xc4\x18\x10G\xc1\xbe:\x8a\x8a'
-
 
 def restrictedPath(path):
-	restricted = ['Learn', 'Training', 'Videos', 'Dr', 'Coffee', 'Gaming', 'Food.', 'Special', 'SocialMedia','Pre-food', 'TV']
+	restricted = ['Learn', 'Training', 'Videos', 'Dr', 'Coffee', 'Gaming', 'Food.', 'Special.', 'SocialMedia','Pre-food', 'TV']
 	for r in restricted:
 		if r in path:
 			return True
