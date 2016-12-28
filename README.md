@@ -43,7 +43,6 @@ To deploy the application:
    application](https://developers.google.com/appengine/docs/python/tools/uploadinganapp) with
 
    ```
-   appcfg.py update -A <your-project-id> -V v1 .
    appcfg.py update -A self-cure -V v1 .
    ```
    
