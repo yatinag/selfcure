@@ -73,15 +73,9 @@ page for libraries that are already included in the SDK.  To include SDK
 libraries, add them in your app.yaml file. Other than libraries included in
 the SDK, only pure python libraries may be added to an App Engine project.
 
-### Feedback
-Star this repo if you found it useful. Use the github issue tracker to give
-feedback on this repo.
-
-## Contributing changes
-See [CONTRIB.md](CONTRIB.md)
-
-## Licensing
-See [LICENSE](LICENSE)
-
-## Author
-Logan Henriquez and Johan Euphrosine
+### How to use Git
+- `git status`: Get status of edited files 
+- `git add <filename>`: Add the changes to the file to the current commit 
+- `git add --all`: Add all changes to the current commit
+- `git commit -m "Message"`: Commit changes
+- `git push`: Push the latest commit to the remote server
