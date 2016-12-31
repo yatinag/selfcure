@@ -3,6 +3,34 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.glow {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+#popup-text{
+    margin-left: 2%;
+}
+#popii{
+    font-size: 1.35em;
+}
+#popup {
+    background-color: aliceblue;
+    display:none;
+    border-radius: 10px;
+    position: fixed;
+    margin:0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+#close{
+    margin-bottom: 2%; 
+}
+#signbut{
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
  ::-moz-selection {
     background: #7a97e8;
 	color: white;
@@ -636,6 +664,7 @@ footer .footer-below {
 }
 #main {
     font-size: 80px;
+    color: white;
 	font-family: 'Dosis';
 }
 #texto {

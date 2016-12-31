@@ -7,9 +7,24 @@
  * classie.remove( elem, 'my-unwanted-class' )
  * classie.toggle( elem, 'my-class' )
  */
-
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
+
+$(document).ready(function () {
+    var delay = 4000;
+    setTimeout(function() {
+        //select the POPUP FRAME and show it
+        $("#popup").hide().slideDown(1000);
+        //close the POPUP if the button with id="close" is clicked
+        $("#close").on("click", function (e) {
+            e.preventDefault();
+            $("#popup").slideUp(1000);
+            $("#html-content").toggleClass("glow");
+        });
+        $("#html-content").toggleClass("glow");
+    }, delay);
+    
+});
 
 ( function( window ) {
 
